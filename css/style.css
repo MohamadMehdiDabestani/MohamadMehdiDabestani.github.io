@@ -2127,12 +2127,15 @@ body.is-touch #container02 {
 #container03 .blog .post .content .text {
     width: 100%;
 }
-#container03 .blog .post .content .text p h2{
+#container03 .blog .post .content .text  h2{
     color: white;
     font-size: 25px;
     text-decoration: none;
     font-weight: 700;
     text-align: center;
+}
+#container03 .blog .post .content .text a:first-child {
+    display: none;
 }
 #container03 .blog .post .content .text p {
     color: rgba(255, 255, 255, 0.4);
