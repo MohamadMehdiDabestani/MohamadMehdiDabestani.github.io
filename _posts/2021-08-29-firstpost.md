@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-![آموزش ioc در asp]({{site.baseurl}}/{{ site.baseurl }}/image/pankaj-patel-_SgRNwAVNKw-unsplash.jpg)
+![آموزش ioc در asp]({{site.baseurl}}{{ site.baseurl }}/image/pankaj-patel-_SgRNwAVNKw-unsplash.jpg)
 ## انواع ioc در asp.net
 اگر تا به حال یک پروژه ی asp.net core رو ساخته اید چه پیشرفته و چه مبتدی باید با ioc یا همون inversion of control رو باهاش کار کرده باشید یا ایکنه کار کرده باشید ولی تاحالا اسمش به گوشتون نخورده باشه ioc به زبانی ساده تر میشه همون dependcy injection که خب اونم تزریق وابستگی های خودمونه پس فقط توی core یکم اسمش عوض شده و یک سری ویژگی های جدید بهش اضافه شده توی این پست هم قراره این ویژگی ها رو مورد بررسی قرار بدیم .
 
