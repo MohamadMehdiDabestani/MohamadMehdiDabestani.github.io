@@ -2126,10 +2126,8 @@ body.is-touch #container02 {
 }
 #container03 .blog .post .content .text {
     width: 100%;
-    margin-top: 15px;
-    padding-top: 25px;
 }
-#container03 .blog .post .content .text a:first-child {
+#container03 .blog .post .content .text p h2{
     color: white;
     font-size: 25px;
     text-decoration: none;
