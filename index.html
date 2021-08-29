@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div id="container06" class="container default full screen">
+    <div class="wrapper">
+        <div class="inner">
+            <h3 id="text27" class="style4">About Me</h3>
+            <h2 id="text28" class="style3">درباره ی من</h2>
+        </div>
+    </div>
+</div>
+<div id="container08" class="container columns full screen">
+    <div class="wrapper">
+        <div class="inner">
+            <div>
+                <div id="image03" class="style1 image"><img src="./image/image03.svg" alt=""></div>
+                <h3 id="text06">شروع راه</h3>
+                <p id="text25" class="style5">من متولد سال 1382 و ماه مهر هستم . از سال 1397 شروع به
+                    یادگیری در زمینه ی برنامه نویسی تحت وب کردم</p>
+            </div>
+            <div>
+                <div id="image04" class="style1 image"><img src="./image/image04.svg" alt=""></div>
+                <h3 id="text26">حالا چی کار میکنم؟</h3>
+                <p id="text21" class="style5">
+                    طراحی و برنامه نویسی انواع سایت (مدیریتی , فروشگاهی , مدیریت محتوا و...) با
+                    استفاده از تکنولوژی asp.net core
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="container07" class="container default full screen">
+    <div class="wrapper">
+        <div class="inner">
+            <hr id="divider03">
+            <h2 id="text13" class="style3">بلاگ</h2>
+        </div>
+    </div>
+</div>
+<div id="container03" class="container columns">
+    <div class="wrapper">
+        <div class="inner blog">
+            {% for post in site.posts %}
+            <div class="post">
+                <div class="content">
+                    <div class="text">
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                        <p>
+                            {{ post.excerpt }}
+                        </p>
+                        <a href="{{ site.baseurl }}{{ post.url }}">ادامه</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
