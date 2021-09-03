@@ -10,3 +10,33 @@ body {
     direction: rtl;
     text-align: right;
 }
+ol {
+    background: #35323cfa;
+    direction: ltr !important;
+    text-align: left !important;
+    width: 90%;
+  margin: 0 auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+    padding-left: 25px;
+    color: #ffffffb5 !important;
+  line-height:28px !important;
+    position: relative;
+    border: 1px solid #3e3e3efa;
+}
+ol::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0%;
+  background: #4a484efa;
+  width: 23px;
+  z-index: 0;
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+}
+ol li {
+  z-index: 1;
+  position: relative;
+}
