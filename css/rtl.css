@@ -40,3 +40,11 @@ ol li {
   z-index: 1;
   position: relative;
 }
+.container-post h3 {
+    text-align: right;
+    direction: rtl;
+    color: #dedede;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
